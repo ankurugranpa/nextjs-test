@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn dev
+
+PATH: 
+  //home/ahahahaha/.deno/bin:/home/ahahahaha/.zplug/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/VDesk:/mnt/c/texlive/2022/bin/win32:/mnt/c/Program Files/Pandoc/:/mnt/c/Users/yukit/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yukit/AppData/Local/Programs/Microsoft VS Code/bin:/home/ahahahaha/dotfiles/mybin:/home/ahahahaha/go/bin:/home/ahahahaha/.fzf/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/ahahahaha/nextjs-test/package.json: Unexpected string in JSON at position 226
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "nextjs-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  
+    "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
