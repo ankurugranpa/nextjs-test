@@ -10,10 +10,7 @@
     "start": "next start",
     "export": "next export"
   },
-  "name": "nextjs-test",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:ankurugranpa/nextjs-test.git",
-  "author": "ankuru <yuki.tori.39@gmail.com>",
-  "license": "MIT"
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
 }
