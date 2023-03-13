@@ -4,9 +4,7 @@ const Index = () => {
   return (
     <>
       <div>Welcome to Next.js!</div>
-      <Link href="/linkSample">
-        <a>link Sample Page</a>
-      </Link>
+      <Link href="/linkSample">link Sample Page</Link>
     </>
   )
 }
